@@ -2,7 +2,7 @@ class Movie extends React.Component {
   render() {
     let { Title, Year, Rated, Released, Runtime, Genre, Director, Writer, Actors, Plot, Awards, Poster, Metascore, imdbRating, imdbVotes, imdbID} = this.props.data
     return (
-      <div className="col-md-8">
+      <div className="col-md-8 separator result-box">
         <img className="col-md-4 img-thumbnail" src={Poster}/>
 
           <div className="col-md-8">

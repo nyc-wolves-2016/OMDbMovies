@@ -7,7 +7,6 @@ class App extends React.Component {
     this.handleSearchParam = this.handleSearchParam.bind(this);
   }
   handleSearchParam(movie) {
-
     this.setState((prevState) => {
       return {
         movies: [movie, ...prevState.movies]

@@ -22,7 +22,7 @@ class SearchBoxView extends React.Component {
       <div className="container">
         <div className="col-md-6 col-md-offset-3">
         <form id="search-form" onSubmit={this.handleSubmit}>
-          <input id="search" ref="searchBox" type="text" name="query" placeholder="Search for a Movie" />
+          <input id="search" ref="searchBox" type="text" name="query" placeholder="Search for a Movie by Title" />
           <input className="btn btn-primary" type="submit" value="Submit" />
         </form>
         </div>
